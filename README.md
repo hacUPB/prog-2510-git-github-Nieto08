@@ -18,6 +18,6 @@ Id.: 00474009
 8. en caso de seguir, despues de la verificacion se dará el promedio
 con 2 digitos decimales. 
 ###  tabla de contenido.
-- [Repositorio_local](C:\repositorios\prog-2510-git-github-Nieto08\.github\docs\repositorio_local.md)
-- [Repositorio_remoto](C:\repositorios\prog-2510-git-github-Nieto08\.github\docs\repositorio_remoto.md)
-- [Uso_consola](C:\repositorios\prog-2510-git-github-Nieto08\.github\docs\uso_consola.md)
+- [Repositorio_local](./docs/repositorio_local.md)
+- [Repositorio_remoto](./docs/repositorio_remoto.md)
+- [Uso_consola](./docs/uso_consola.md)
