@@ -1,3 +1,58 @@
-Es un archivo de texto que sirve para que unos archivos o directorios
-que deben ser ignorados por git, que no sean incluidos en los commit
- 
+# Archivos compilados de Python
+*.pyc
+*.pyo
+*.pyd
+
+# Directorio de caché de Python
+__pycache__/
+
+# Entornos virtuales de Python
+venv/
+env/
+*.env
+
+# Archivos de configuración local
+.env
+.env.local
+
+# Archivos de Visual Studio
+.vs/             # Carpeta de configuración de Visual Studio
+*.suo            # Archivo de configuración de usuario de Visual Studio
+*.user           # Archivo de configuración de usuario
+*.userosscache   # Caché de configuración de usuario
+*.sln.docstates  # Estados de documentos de la solución
+*.vcxproj*       # Archivos de proyecto de C++
+*.vcproj*        # Archivos de proyecto antiguos de C++
+*.filters        # Filtros de archivos en proyectos de C++
+*.aps            # Archivos de recursos compilados
+*.ncb            # IntelliSense database (obsoleto)
+*.opensdf        # Archivos de base de datos de Visual Studio
+*.sdf            # Archivos de base de datos de SQL Server Compact
+*.cachefile      # Archivos de caché
+*.log            # Archivos de registro
+*.tlog           # Archivos de registro de compilación
+*.db             # Archivos de base de datos local
+*.idb            # Archivos de base de datos de estado
+*.pdb            # Archivos de símbolos de depuración
+*.ilk            # Archivos de enlace incremental
+*.exp            # Archivos de exportación
+*.lib            # Archivos de biblioteca
+*.manifest       # Archivos de manifiesto
+*.spec           # Archivos de especificación de PyInstaller
+
+# Archivos de distribución y build
+dist/
+build/
+*.egg-info/
+
+# Archivos de pruebas y cobertura
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Archivos de Jupyter Notebook (opcional)
+.ipynb_checkpoints/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
